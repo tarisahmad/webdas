@@ -7,25 +7,25 @@
         <form action="lat-form-ppdb.php" method="POST">
             <fieldset>
                 <legend align="center">FORMULIR PPDB JALUR ZONASI TAHUN 2020</legend>
-                <table width="100%">
+                <table border="0" width="100%">
                     <tr>
-                        <td width="1"><b>Nomor</b></td>
-                        <td width=35%><b>INFO PENDAFTARAN</b></td>
+                         <td align="left" width="20"><b>Nomor</b></td>
+                        <td align="left"><b>INFO PENDAFTARAN</b></td>
                     </tr>
                     <tr>
-                        <td align="center">1</td>
+                        <td align="center">1.</td>
                         <td>NISN</td>
                         <td width="1">:</td>
                         <td><input size="100%" type="text" name="nisn" placeholder="masukan nisn..."></td>
                     </tr>
                     <tr>
-                        <td align="center">2</td>
+                        <td align="center">2.</td>
                         <td>Asal sekolah</td>
                         <td width="1">:</td>
                         <td><input size="100%" type="text" name="asal sekolah" placeholder="masukan asal sekolah..."></td>
                     </tr>
                     <tr>
-                        <td align="center">3</td>
+                        <td align="center">3.</td>
                         <td>Tahun Lulus</td>
                         <td width="1">:</td>
                         <td><input size="25%" type="number" min="2018" max="2020" placeholder="tahun...">
@@ -35,19 +35,19 @@
                         <td colspan="2"><b>DATA CALON PESERTA</b></td>
                     </tr>
                     <tr>
-                        <td align="center">4</td>
+                        <td align="center">4.</td>
                         <td>Nama Lengkap</td>
                         <td width="1">:</td>
                         <td><input size="100%" type="text" name="nama lengkap" placeholder="masukan nama lengkap..."></td>
                     </tr>
                     <tr>
-                        <td align="center">5</td>
+                        <td align="center">5.</td>
                         <td>NIK</td>
                         <td width="1">:</td>
                         <td><input size="100%" type="text" name="nik" placeholder="masukan nik..."></td>
                     </tr>
                     <tr>
-                        <td align="center">6</td>
+                        <td align="center">6.</td>
                         <td>Tempat/Tanggal Lahir</td>
                         <td width="1">:</td>
                         <td><input type="text" name="tempat lahir" placeholder="masukan tempat lahir..." >
@@ -58,49 +58,137 @@
                         </td>
                     </tr>
                     <tr>
-                        <td align="center">7</td>
-                        <td>Asal sekolah</td>
+                        <td align="center">7.</td>
+                        <td>Jenis Kelamin</td>
                         <td width="1">:</td>
-                        <td><input size="100%" type="text" name="asal sekolah" placeholder="masukan asal sekolah..."></td>
+                        <td><label><input type="radio" name="jenis kelamin" value="laki-laki">Laki-laki</label>
+                            <label><input type="radio" name="jenis kelamin" value="perempuan">Perempuan</label></td>
                     </tr>
                     <tr>
-                        <td align="center">8</td>
-                        <td>NISN</td>
+                        <td align="center">8.</td>
+                        <td>Alamat</td>
                         <td width="1">:</td>
-                        <td><input size="100%" type="text" name="nisn" placeholder="masukan nisn..."></td>
+                        <td><input size="100%" type="text" name="alamt" placeholder="masukan alamat..."></td>
                     </tr>
                     <tr>
-                        <td align="center">10</td>
-                        <td>Asal sekolah</td>
+                        <td align="center">10.</td>
+                        <td align="right">Desa/Kel.</td>
                         <td width="1">:</td>
-                        <td><input size="100%" type="text" name="asal sekolah" placeholder="masukan asal sekolah..."></td>
+                        <td><input size="100%" type="text" name="desa" placeholder="masukan desa/kel..."></td>
                     </tr>
                     <tr>
-                        <td align="center">11</td>
-                        <td>NISN</td>
+                        <td align="center">11.</td>
+                        <td align="right">Kecamatan</td>
                         <td width="1">:</td>
-                        <td><input size="100%" type="text" name="nisn" placeholder="masukan nisn..."></td>
+                        <td><input size="100%" type="text" name="kecamatan" placeholder="masukan kecamatan..."></td>
                     </tr>
                     <tr>
-                        <td align="center">12</td>
-                        <td>Asal sekolah</td>
+                        <td align="center">12.</td>
+                        <td align="right">Kabupaten</td>
                         <td width="1">:</td>
-                        <td><input size="100%" type="text" name="asal sekolah" placeholder="masukan asal sekolah..."></td>
+                        <td><input size="100%" type="text" name="kabupaten" placeholder="masukan kabupaten..."></td>
                     </tr>
                     <tr>
-                        <td align="center">13</td>
-                        <td>NISN</td>
+                        <td align="center">13.</td>
+                        <td align="right">Provinsi</td>
                         <td width="1">:</td>
-                        <td><input size="100%" type="text" name="nisn" placeholder="masukan nisn..."></td>
+                        <td><input size="100%" type="text" name="provinsi" placeholder="masukan provinsi..."></td>
                     </tr>
                     <tr>
                         <td align="center">14</td>
-                        <td>Asal sekolah</td>
+                        <td>Email Aktif</td>
                         <td width="1">:</td>
-                        <td><input size="100%" type="text" name="asal sekolah" placeholder="masukan asal sekolah..."></td>
+                        <td><input size="100%" type="email" name="email" placeholder="masukan email..."></td>
                     </tr>
-                    
-                    
+                    <tr>
+                        <td colspan="2"><b>DATA ORANGTUA</b></td>
+                    </tr>
+                    <tr>
+                        <td align="center">4.</td>
+                        <td>Nomor Kartu Keluarga</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="no.KK" placeholder="masukan nomor kartu keluarga..."></td>
+                    </tr>
+                    <tr>
+                        <td align="center">4.</td>
+                        <td>Nama Ayah Kandung</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="nama ayah kandung" placeholder="masukan nama ayah kandung..."></td>
+                    </tr>
+                    <tr>
+                        <td align="center">4.</td>
+                        <td>Agama</td>
+                        <td width="1">:</td>
+                        <td>
+                            <select name="agama">
+                                <option value="islam">Islam</option>
+                                <option value="kristen">Kristen</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="budha">Budha</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">4.</td>
+                        <td>Pekerjaan</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="pekerjaan" placeholder="masukan pekerjaan..."></td>
+                    </tr>
+                    <tr>
+                        <td align="center">4.</td>
+                        <td>Nama Ibu Kandung</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="nama ibu kandung" placeholder="masukan nama ibu kandung..."></td>
+                    </tr>
+                    <tr>
+                        <td align="center">4.</td>
+                        <td>Agama</td>
+                        <td width="1">:</td>
+                        <td>
+                            <select name="agama">
+                                <option value="islam">Islam</option>
+                                <option value="kristen">Kristen</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="budha">Budha</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">4.</td>
+                        <td>Pekerjaan</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="pekerjaan" placeholder="masukan pekerjaan..."></td>
+                    </tr>
+                    <tr>
+                        <td align="center">4.</td>
+                        <td>Alamat Ortu</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="alamat ortu" placeholder="masukan alamat ortu..."></td>
+                    </tr>
+                    <tr>
+                        <td align="center">10.</td>
+                        <td align="right">Desa/Kel.</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="desa" placeholder="masukan desa/kel..."></td>
+                    </tr>
+                    <tr>
+                        <td align="center">11.</td>
+                        <td align="right">Kecamatan</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="kecamatan" placeholder="masukan kecamatan..."></td>
+                    </tr>
+                    <tr>
+                        <td align="center">12.</td>
+                        <td align="right">Kabupaten</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="kabupaten" placeholder="masukan kabupaten..."></td>
+                    </tr>
+                    <tr>
+                        <td align="center">13.</td>
+                        <td align="right">Provinsi</td>
+                        <td width="1">:</td>
+                        <td><input size="100%" type="text" name="provinsi" placeholder="masukan provinsi..."></td>
+                    </tr>
                 </table>
             </fieldset>
         </form>           
